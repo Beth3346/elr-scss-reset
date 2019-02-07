@@ -5,7 +5,6 @@ const scsslint = require('gulp-scss-lint');
 const plumber = require('gulp-plumber');
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
-const babel = require('gulp-babel');
 
 var paths = {
   app: 'dist/',
